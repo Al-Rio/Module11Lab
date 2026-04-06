@@ -50,7 +50,7 @@ namespace RubberDuckStore.Pages
                         DuckList.Add(new SelectListItem
                         {
                             Value = reader.GetInt32(0).ToString(), // Duck ID as the value
-                            Text = reader.GetString(1)             // Duck name as the display text
+                            Text = reader.GetString(1)  // Duck name as the display text
                         });
                     }
                 }
